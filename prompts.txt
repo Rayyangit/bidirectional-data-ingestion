@@ -1,0 +1,52 @@
+# AI Tools Used: ChatGPT, DeepSeek
+
+**Prompts Given:**
+
+1. **ClickHouse Connection Setup**  
+   "How to configure a secure connection to ClickHouse using JWT authentication in a Java Spring Boot application?"  
+
+2. **Bidirectional Data Flow**  
+   "Show me example code for transferring data between ClickHouse and CSV files in both directions (import/export) using Java."  
+
+3. **Schema Discovery**  
+   "How to fetch table schemas and column lists from ClickHouse programmatically?"  
+
+4. **Column Selection UI**  
+   "Best practices for implementing a dynamic column selector UI in a web application (HTML/JS) that connects to backend APIs."  
+
+5. **Data Ingestion Logic**  
+   "Help me implement efficient batch processing for ClickHouse data ingestion with progress tracking."  
+
+6. **Error Handling**  
+   "How to handle common ClickHouse connection errors (timeouts, auth failures) and display user-friendly messages?"  
+
+7. **Multi-Table Join (Bonus)**  
+   "Implement ClickHouse JOIN query generation based on user-selected tables and join conditions in Java."  
+
+8. **Testing**  
+   "Write JUnit tests for ClickHouse data ingestion that verify record counts and schema matching."  
+
+9. **Performance Optimization**  
+   "How to optimize large dataset transfers between ClickHouse and flat files?"  
+
+10. **Docker Setup**  
+    "Guide me through setting up a local ClickHouse instance in Docker for development/testing."  
+
+===== Page 2 =====  
+
+**Implementation-Specific Prompts:**
+
+11. **JWT Handling**  
+    "How to properly include JWT tokens in ClickHouse JDBC requests?"  
+
+12. **CSV Parsing**  
+    "Best Java library for parsing large CSV files with custom delimiters during Flat File ingestion?"  
+
+13. **Progress Reporting**  
+    "Implement a progress bar for async ClickHouse data transfers in a Spring Boot + Thymeleaf application."  
+
+14. **Data Preview**  
+    "How to fetch and display the first 100 rows from ClickHouse/CSV before full ingestion?"  
+
+15. **Type Conversion**  
+    "Handle ClickHouse-to-CSV data type conversions (e.g., DateTime → String) during export."  

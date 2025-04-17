@@ -6,21 +6,7 @@ const api = axios.create({
   withCredentials: true, // You can keep this if you need to handle cookies for cross-origin requests
 })
 
-// Remove the request interceptor to eliminate the token validation part
-// api.interceptors.request.use(
-//   (config) => {
-//     const token = localStorage.getItem('ch_jwt')
-//     if (token) {
-//       config.headers.Authorization = `Bearer ${token}`
-//     }
-//     return config
-//   },
-//   (error) => {
-//     return Promise.reject(error)
-//   }
-// )
 
-//Remove the response interceptor as well
 
 
 
